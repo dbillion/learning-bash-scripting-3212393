@@ -21,6 +21,7 @@ echo {a..z..2}
 touch file_{01..12}{a..d}
 echo {cat,dog,fox}
 echo {cat,dog,fox}_{1..5}
+head -n1 {dir1,dir2,dir3}/lorem.txt
 ```
 
 ## 01_07 Parameter expansion
